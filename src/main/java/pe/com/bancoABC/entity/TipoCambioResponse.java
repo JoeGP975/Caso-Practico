@@ -1,7 +1,6 @@
 package pe.com.bancoABC.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
 import java.util.Date;
 

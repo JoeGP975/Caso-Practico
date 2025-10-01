@@ -12,9 +12,6 @@ import pe.com.bancoABC.entity.TipoCambioEntity;
 import pe.com.bancoABC.entity.TipoCambioRequest;
 import pe.com.bancoABC.entity.TipoCambioResponse;
 
-import java.util.Date;
-
-
 @Path("/api/tipoCambio/v1")
 public class TipoCambioController {
     @Inject
