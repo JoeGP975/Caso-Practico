@@ -10,12 +10,15 @@ public class TipoCambioResponse {
     private String dni;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date fecha;
+    private String sunat;
     private String compra;
     private String venta;
 
-    public TipoCambioResponse(String dni, Date fecha, String compra, String venta) {
+
+    public TipoCambioResponse(String dni, Date fecha,String sunat, String compra, String venta) {
         this.dni = dni;
         this.fecha = fecha;
+        this.sunat = sunat;
         this.compra = compra;
         this.venta = venta;
     }
@@ -50,5 +53,13 @@ public class TipoCambioResponse {
 
     public void setVenta(String venta) {
         this.venta = venta;
+    }
+
+    public String getSunat() {
+        return sunat;
+    }
+
+    public void setSunat(String sunat) {
+        this.sunat = sunat;
     }
 }
